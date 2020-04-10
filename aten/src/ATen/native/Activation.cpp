@@ -7,6 +7,7 @@
 #include <ATen/native/TensorIterator.h>
 #include <ATen/Parallel.h>
 #include <ATen/core/DistributionsHelper.h>
+#include <ATen/native/xnnpack/Engine.h>
 
 namespace at { namespace native {
 
